@@ -31,8 +31,9 @@ public class MultiCalcApp {
         printRotations(totalDegrees);
 
         // TODO: Your code for Task Four and Task Five here:
- int
-
+ double sideLength = 24.4;
+ System.out.println("The length of the side is " + sideLength +" metres");
+        printEquilateralTriangleArea(sideLength);
 
     }
 
@@ -79,11 +80,11 @@ double printRightAngleTriangleArea = (1.0/2.0* sideA* sideB);
     }
 
     // TODO: Create your method definitions for tasks four and five here:
-public void printEquilateraltriangle (double sideLength){
-double area =
+public void printEquilateralTriangleArea (double sideLength) {
+    double printEquilateralTriangleArea = Math.sqrt(3.0) / 4 * Math.pow(sideLength, 2);
+
+    System.out.println("An equilateral triangle with a side length of " + sideLength +" has an area of " + printEquilateralTriangleArea + " square metres.");
 }
-
-
 
 
     public static void main(String[] args) {
